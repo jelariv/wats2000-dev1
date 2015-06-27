@@ -1,0 +1,17 @@
+body {
+    color: green;
+}
+
+.container .jumbotron {
+    @include border-top-radius(0px);
+    @include border-bottom-radius(50px);
+}
+
+.marketing {
+    h4 {
+        color: $brand-warning;
+    }
+    p {
+        color: $brand-primary;
+    }
+}
